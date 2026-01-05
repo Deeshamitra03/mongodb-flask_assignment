@@ -5,7 +5,7 @@ import pymongo
 app = Flask(__name__)
 
 
-MONGO_URI = "mongodb+srv://deeshamitra3_db_user:5pjNHthNAqxlpLam@cluster0.k4rxbm4.mongodb.net/?appName=Cluster0"
+MONGO_URI = "mongodb+srv://deeshamitra3_db_user:<password>@cluster0.k4rxbm4.mongodb.net/?appName=Cluster0"
 
 try:
     client = pymongo.MongoClient(MONGO_URI)
